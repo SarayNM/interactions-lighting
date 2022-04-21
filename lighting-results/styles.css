@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  font-size: 80px;
+  color: #484848;
+  font-family: "Lato", sans-serif;
+}
+.one {
+  animation: one 2s linear infinite;
+  animation-delay: 1s;
+}
+.two {
+  animation: one 2s linear infinite;
+  animation-delay: 1.2s;
+}
+.three {
+  animation: one 2s linear infinite;
+  animation-delay: 1.4s;
+}
+.four {
+  animation: one 2s infinite;
+  animation-delay: 1.6s;
+}
+.five {
+  animation: one 2s linear infinite;
+  animation-delay: 1.8s;
+}
+
+.six {
+  animation: one 2s linear infinite;
+  animation-delay: 2s;
+}
+.seven {
+  animation: one 2s linear infinite;
+  animation-delay: 2.2s;
+}
+.eight {
+  animation: one 2s linear infinite;
+  animation-delay: 2.4s;
+}
+@keyframes one {
+  0% {
+    text-shadow: 0 0 4px #fff900, 0 0 11px #fff900, 0 0 19px #fff900,
+      0 0 40px #ff6c00, 0 0 80px #fff900, 0 0 90px #ff6c00, 0 0 100px #fff900,
+      0 0 150px #fff900;
+    color: #fff900;
+  }
+  5% {
+    text-shadow:#ff6c00;
+  }
+  50% {
+    color: #484848;
+  }
+}
+
+
+
+
+
+
